@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
-  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
-    {{ content }}
+<body class="p-3">
+  <main class="container-md">
+    {% include links.html %}
   </main>
   <script src="assets/js/main.js"></script>
 </body>
