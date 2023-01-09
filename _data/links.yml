@@ -1,3 +1,9 @@
+- text: Projects
+  url: /projects
+- text: Hey, World (blog)
+  url: https://www.hey.com/world/
+- text: Currently Reading
+  url: https://www.goodreads.com/review/list/63243865?shelf=currently-reading
 - text: Twitter
   url: https://www.twitter.com/pglevy
 - text: LinkedIn
