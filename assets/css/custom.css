@@ -4,3 +4,8 @@ svg {
     width: 1em;
     height: 1em;
 }
+
+.link-mktg.link-emphasis-mktg::before,
+.link-mktg.link-emphasis-mktg::after {
+    width: 100%;
+}
