@@ -1,21 +1,18 @@
-- text: Projects
-  url: /projects
-  icon: box2-heart
-- text: HEY World (blog)
+- text: GitHub
+  url: https://github.com/pglevy
+  icon: github
+- text: HEY World Blog
   url: https://world.hey.com/philip.levy
   icon: globe
 - text: Currently Reading
   url: https://www.goodreads.com/review/list/63243865?shelf=currently-reading
   icon: book
-- text: Twitter
-  url: https://www.twitter.com/pglevy
-  icon: twitter
 - text: LinkedIn
   url: https://www.linkedin.com/in/philipglevy/
   icon: linkedin
-- text: GitHub
-  url: https://github.com/pglevy
-  icon: github
+- text: Twitter
+  url: https://www.twitter.com/pglevy
+  icon: twitter
 - text: CodePen
   url: https://codepen.io/pglevy
   icon: pen
