@@ -4,6 +4,9 @@
 - text: HEY World Blog
   url: https://world.hey.com/philip.levy
   icon: globe
+- text: Designer Sketches Podcast
+  url: https://pglevy.github.io/designer-sketches-podcast/
+  icon: mic-fill
 - text: Currently Reading
   url: https://www.goodreads.com/review/list/63243865?shelf=currently-reading
   icon: book
