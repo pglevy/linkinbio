@@ -1,21 +1,18 @@
+- text: Designer Sketches Podcast
+  url: https://pglevy.github.io/designer-sketches-podcast/
+  icon: mic-fill
 - text: GitHub
   url: https://github.com/pglevy
   icon: github
 - text: HEY World Blog
   url: https://world.hey.com/philip.levy
   icon: globe-americas
-- text: Designer Sketches Podcast
-  url: https://pglevy.github.io/designer-sketches-podcast/
-  icon: mic-fill
 - text: Currently Reading
   url: https://www.goodreads.com/review/list/63243865?shelf=currently-reading
   icon: book
 - text: LinkedIn
   url: https://www.linkedin.com/in/philipglevy/
   icon: linkedin
-- text: Twitter
-  url: https://www.twitter.com/pglevy
-  icon: twitter
 - text: CodePen
   url: https://codepen.io/pglevy
   icon: pen
