@@ -4,15 +4,15 @@
 - text: GitHub
   url: https://github.com/pglevy
   icon: github
+- text: LinkedIn
+  url: https://www.linkedin.com/in/philipglevy/
+  icon: linkedin
 - text: HEY World Blog
   url: https://world.hey.com/philip.levy
   icon: globe-americas
 - text: Currently Reading
   url: https://www.goodreads.com/review/list/63243865?shelf=currently-reading
   icon: book
-- text: LinkedIn
-  url: https://www.linkedin.com/in/philipglevy/
-  icon: linkedin
 - text: CodePen
   url: https://codepen.io/pglevy
   icon: pen
