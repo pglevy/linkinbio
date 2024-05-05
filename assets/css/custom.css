@@ -18,7 +18,7 @@ a:has(article) {
     text-decoration: none;
 }
 
-h1:has(img.avatar) {
+h1:has(.avatar) {
     display: inline-flex;
     align-items: center;
 }
