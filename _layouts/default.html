@@ -1,26 +1,31 @@
 <!doctype html>
-<html lang="{{site.lang}}" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<html lang="{{site.lang}}">
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{{ site.title }}</title>
 
   <link rel="icon" href="favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="https://unpkg.com/@primer/css@21.0.1/dist/primer.css">
+  <link rel="stylesheet" href="assets/css/pico.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
 </head>
 
-<body class="p-3">
-  <main class="container-md">
+<body>
+  <header class="container text-center">
     {% include profile.html %}
     {% include interests.html %}
+  </header>
+  <main class="container text-center">
     {% include links.html %}
-    {% include footer.html %}
   </main>
+  <footer class="container text-center">
+    {% include footer.html %}
+  </footer>
   <script src="assets/js/main.js"></script>
 </body>
 

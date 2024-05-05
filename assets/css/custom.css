@@ -1,11 +1,106 @@
-/* Add CSS rules to override Primer */
+/* Add CSS rules to override or enhance Pico */
 
-svg {
-    width: 1em;
-    height: 1em;
+article {
+    border: 2px solid var(--pico-primary-border);
+    box-shadow: none;
+    font-weight: 600;
 }
 
-.link-mktg.link-emphasis-mktg::before,
-.link-mktg.link-emphasis-mktg::after {
-    width: 100%;
+a:hover article,
+a:focus article,
+a:active article {
+    border: 2px solid var(--pico-primary-hover-border);
+    box-shadow: var(--pico-box-shadow);
+    transition: all 600ms ease;
+}
+
+a:has(article) {
+    text-decoration: none;
+}
+
+h1:has(img.avatar) {
+    display: inline-flex;
+    align-items: center;
+}
+
+svg {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.avatar {
+    border-radius: .5rem;
+    margin-inline-end: .5rem;
+}
+
+.tag {
+    display: inline-flex;
+    border: 1px solid var(--pico-muted-border-color);
+    border-radius: 2rem;
+    padding: 0 .5rem;
+    font-size: .875rem;
+    background-color: rgba(var(--pico-background-color), .5);
+    color: var(--pico-secondary);
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (prefers-color-scheme: light) {
+    article {
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    a:hover article,
+    a:focus article,
+    a:active article {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    html {
+        background-image: linear-gradient(145deg,
+                hsl(0deg 0% 100%) 1%,
+                hsl(45deg 100% 98%) 42%,
+                hsl(49deg 100% 97%) 55%,
+                hsl(50deg 92% 95%) 63%,
+                hsl(51deg 94% 93%) 68%,
+                hsl(50deg 95% 92%) 73%,
+                hsl(50deg 96% 90%) 76%,
+                hsl(50deg 93% 88%) 80%,
+                hsl(51deg 94% 86%) 85%,
+                hsl(50deg 95% 85%) 100%);
+    }
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    article {
+        background-color: rgba(19, 23, 31, .25);
+    }
+
+    a:hover article,
+    a:focus article,
+    a:active article {
+        background-color: rgba(19, 23, 31, 1);
+    }
+
+    html {
+        background-image: linear-gradient(145deg,
+                hsl(220deg 24% 10%) 1%,
+                hsl(219deg 30% 11%) 42%,
+                hsl(217deg 33% 12%) 55%,
+                hsl(214deg 40% 14%) 63%,
+                hsl(212deg 45% 15%) 68%,
+                hsl(209deg 49% 16%) 73%,
+                hsl(207deg 55% 17%) 76%,
+                hsl(205deg 60% 19%) 80%,
+                hsl(203deg 65% 20%) 85%,
+                hsl(201deg 71% 21%) 100%);
+    }
 }
