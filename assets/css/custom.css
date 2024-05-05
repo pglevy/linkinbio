@@ -28,6 +28,10 @@ svg {
     height: 1.5em;
 }
 
+ul:has(.tag) {
+    padding: 0;
+}
+
 .avatar {
     border-radius: .5rem;
     margin-inline-end: .5rem;
