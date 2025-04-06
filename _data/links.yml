@@ -1,15 +1,15 @@
 - text: Portfolio
   url: https://pglevy.github.io/portfolio/
   icon: journal-album
-- text: Designer Sketches Podcast
-  url: https://designersketches.substack.com/
-  icon: mic-fill
 - text: GitHub
   url: https://github.com/pglevy
   icon: github
 - text: LinkedIn
   url: https://www.linkedin.com/in/philipglevy/
   icon: linkedin
+- text: Designer Sketches Podcast
+  url: https://designersketches.substack.com/
+  icon: mic-fill
 - text: HEY World Blog
   url: https://world.hey.com/philip.levy
   icon: globe-americas
